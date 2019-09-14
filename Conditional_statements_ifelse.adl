@@ -1,0 +1,75 @@
+[
+    {
+        "paths": [
+            "149dfcf13aa063293a377e8bf2beb2e0"
+        ],
+        "data": {
+            "uuid": "640cc9a1dd7ae3878d61146ebf77a211",
+            "val": 100,
+            "width": 120,
+            "height": 32,
+            "step": "Create x = 100",
+            "var": "my_list",
+            "x": 80,
+            "y": 0,
+            "type": "variable",
+            "maxpaths": 1
+        }
+    },
+    {
+        "paths": [
+            "4b1062302c5e54868ecd200aefb7fc9c",
+            "f512613274c0e14f5e2bad1acbc5d275"
+        ],
+        "data": {
+            "type": "conditional",
+            "step": "Does x == 100",
+            "conditions": [
+                {
+                    "var": {
+                        "~": "x"
+                    },
+                    "cond": null,
+                    "value": 100,
+                    "cmp": "=="
+                }
+            ],
+            "success": [],
+            "failure": [],
+            "maxpaths": 2,
+            "uuid": "149dfcf13aa063293a377e8bf2beb2e0",
+            "width": 120,
+            "height": 32,
+            "x": 80,
+            "y": 80
+        }
+    },
+    {
+        "paths": [],
+        "data": {
+            "type": "return",
+            "step": "Return x is 100",
+            "maxpaths": 0,
+            "uuid": "4b1062302c5e54868ecd200aefb7fc9c",
+            "height": 32,
+            "width": 120,
+            "x": 0,
+            "y": 160,
+            "data": "x is 100!!!"
+        }
+    },
+    {
+        "paths": [],
+        "data": {
+            "type": "return",
+            "step": "Return x is not 100",
+            "maxpaths": 0,
+            "uuid": "f512613274c0e14f5e2bad1acbc5d275",
+            "height": 32,
+            "width": 120,
+            "x": 160,
+            "y": 160,
+            "data": "x is not 100 :("
+        }
+    }
+]
