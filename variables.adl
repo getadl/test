@@ -1,4 +1,4 @@
-{"0c0e4da529453ae846f1140c55b747f8_e87ca54afb47f563f6057312779d97b3_24fd86ca06d5899e45b258125a31043053208bc92c5b23418f1cf7ef_flow":[{"data":{"type":"variable",
+[{"data":{"type":"variable",
  "step":"Variable",
  "var":"var",
  "val":"<empty>",
@@ -30,7 +30,4 @@
  "y":342,
  "width":120,
  "height":32},
- "paths":[]}],
- "0c0e4da529453ae846f1140c55b747f8_e87ca54afb47f563f6057312779d97b3_24fd86ca06d5899e45b258125a31043053208bc92c5b23418f1cf7ef_adl":[{"var":"<empty>"},
- {"var2":{"~":"var1"}},
- {"var3":"hello"}]}
+ "paths":[]}]
