@@ -26,7 +26,7 @@
             "uuid": "33b5397f1e6668a8e171e46a0cc08593",
             "height": 32,
             "width": 120,
-            "x": 531,
+            "x": 530,
             "y": 123
         },
         "paths": [
@@ -73,7 +73,7 @@
             "width": 120,
             "internet": "internet",
             "y": 206,
-            "x": 531
+            "x": 530
         },
         "paths": [
             "4d6c330520867bba54cecbe6cd074d04"
@@ -91,7 +91,7 @@
             "uuid": "4d6c330520867bba54cecbe6cd074d04",
             "height": 32,
             "width": 120,
-            "x": 531,
+            "x": 530,
             "y": 294
         },
         "paths": [
@@ -301,7 +301,7 @@
             "height": 32,
             "width": 120,
             "y": 462,
-            "x": 536
+            "x": 530
         },
         "paths": []
     }
