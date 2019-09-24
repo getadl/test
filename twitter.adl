@@ -10,7 +10,7 @@
             "height": 32,
             "width": 120,
             "x": 298,
-            "y": 117
+            "y": 123
         },
         "paths": [
             "33b5397f1e6668a8e171e46a0cc08593"
@@ -26,7 +26,7 @@
             "uuid": "33b5397f1e6668a8e171e46a0cc08593",
             "height": 32,
             "width": 120,
-            "x": 528,
+            "x": 531,
             "y": 123
         },
         "paths": [
@@ -59,7 +59,7 @@
     {
         "data": {
             "type": "library",
-            "step": "call fb",
+            "step": "REST call to Twitter",
             "call": "internet.http.get",
             "args": {
                 "url": "{\"~\":\"tw_url\"}",
@@ -91,7 +91,7 @@
             "uuid": "4d6c330520867bba54cecbe6cd074d04",
             "height": 32,
             "width": 120,
-            "x": 535,
+            "x": 531,
             "y": 294
         },
         "paths": [
