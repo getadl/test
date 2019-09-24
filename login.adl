@@ -1,5 +1,4 @@
-{
-	"0c0e4da529453ae846f1140c55b747f8_e87ca54afb47f563f6057312779d97b3_4cc42e8d6a43361335a759d58897e54d3929d52399dd555502732388_flow":[
+[
 		{
 			"data":{
 				"type":"variable",
@@ -50,21 +49,4 @@
 			},
 			"paths":[]
 		}
-	],
-	"0c0e4da529453ae846f1140c55b747f8_e87ca54afb47f563f6057312779d97b3_4cc42e8d6a43361335a759d58897e54d3929d52399dd555502732388_adl":[
-		{"username":"<empty>"},
-		{"password":"<empty>"},
-		{
-			"target":"cb9fa7fd28f0a77e411b91477dd927c6de63c1c737badd4be38988ee",
-			"action":"authenticate",
-			"args":{"password":{"~":"password"},
-			"id":{"~":"username"}},
-			"verb":"get",
-			"events":{
-				"success":{
-					"authed":{"~":"data"}
-				}
-			}
-		}
 	]
-}
